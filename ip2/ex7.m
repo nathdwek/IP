@@ -1,3 +1,4 @@
+%Image Processing -- Nathan DWEK (ULB)
 close all;
 
 baboon = im2double(imread('baboon.tif', 'TIF'));

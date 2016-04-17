@@ -1,3 +1,4 @@
+%Image Processing -- Nathan DWEK (ULB)
 close all;
 [aind,amap] = imread('trees.tif','TIF');
 imshow(aind, amap);

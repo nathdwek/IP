@@ -1,3 +1,4 @@
+%Image Processing -- Nathan DWEK (ULB)
 function y = oddFilter(h,x)
     l = length(h);
     pad = floor(l/2);

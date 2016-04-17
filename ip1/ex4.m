@@ -1,3 +1,4 @@
+%Image Processing -- Nathan DWEK (ULB)
 close all;
 
 RSIZE = 4;

@@ -1,3 +1,4 @@
+%Image Processing -- Nathan DWEK (ULB)
 close all;
 
 x = linspace(0.1,.4,100);

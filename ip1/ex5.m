@@ -1,3 +1,4 @@
+%Image Processing -- Nathan DWEK (ULB)
 close all;
 
 mandrill = imread('mandrill.tif', 'TIF');

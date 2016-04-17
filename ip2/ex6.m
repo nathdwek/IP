@@ -1,3 +1,4 @@
+%Image Processing -- Nathan DWEK (ULB)
 close all;
 
 lenad = im2double(imread('lenad.tif','TIF'));

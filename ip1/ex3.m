@@ -1,3 +1,4 @@
+%Image Processing -- Nathan DWEK (ULB)
 x = random('norm', 0, 1, 100, 1);
 t = 1:100;
 h = [1/3;1/3;1/3];

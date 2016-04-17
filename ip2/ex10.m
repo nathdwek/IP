@@ -1,3 +1,4 @@
+%Image Processing -- Nathan DWEK (ULB)
 close all;
 
 medical = im2double(imread('medical.tif', 'TIF'));
