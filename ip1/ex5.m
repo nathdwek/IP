@@ -1,3 +1,5 @@
+close all;
+
 mandrill = imread('mandrill.tif', 'TIF');
 zebra = imread('zebra.tif', 'TIF');
 
@@ -25,3 +27,7 @@ subplot(2,2,3);
 imshow(round(ifft2(zmfreq)), []);
 subplot(2,2,4);
 imshow(round(ifft2(mzfreq)), []);
+
+%I'm surprised by how well you can still recognize the image after altering
+%the phase. I don't really know why, but it seems like the edges are all
+%really well preserved.
