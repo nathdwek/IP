@@ -1,3 +1,4 @@
+%Image Processing session3 2016 -- Nathan Dwek
 function result=medianfilter(image)
 sz=size(image);
 width=sz(1,2);

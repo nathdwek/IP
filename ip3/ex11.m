@@ -1,3 +1,4 @@
+%Image Processing session3 2016 -- Nathan Dwek
 close all;
 
 SIGMA = 0.1;

@@ -1,3 +1,4 @@
+%Image Processing session3 2016 -- Nathan Dwek
 function [outimage] = anisodiff(image,iteration,k)
 
 lambda = 0.10;
