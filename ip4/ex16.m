@@ -1,0 +1,1 @@
+gertrude = im2double(imread('gertrude.tif', 'TIFF'));
