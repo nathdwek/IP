@@ -1,4 +1,4 @@
-Image Processing lab4 -- Nathan Dwek
+%Image Processing lab4 -- Nathan Dwek
 close all; clear all;
 
 SIGMA = .05;
@@ -42,8 +42,3 @@ imshow(im2bw(gradientAbs, 0.4));title('Edge avg, tresh = 0.4');
 %detection.
 figure;
 imshow(im2bw(gradientAbs, 0.45));title(sprintf('Final result\nEdge no avg, tresh = 0.45'));
-
-
-
-
-

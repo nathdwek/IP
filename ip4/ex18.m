@@ -1,4 +1,4 @@
-Image Processing lab4 -- Nathan Dwek
+%Image Processing lab4 -- Nathan Dwek
 close all; clear all;
 
 LOGSIGMA = 0.7;
@@ -39,7 +39,3 @@ end
 %clearly defined edges, and is able to locate edges more precisely then
 %methods relying on the first derivatives. However, sigma must be chosen
 %correctly in order to avoid false edges.
-
-
-
-

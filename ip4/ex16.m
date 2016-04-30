@@ -1,4 +1,4 @@
-Image Processing lab4 -- Nathan Dwek
+%Image Processing lab4 -- Nathan Dwek
 close all; clear all;
 
 gertrude = im2double(imread('gertrude.tif', 'TIFF'));

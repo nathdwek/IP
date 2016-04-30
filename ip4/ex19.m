@@ -1,4 +1,4 @@
-Image Processing lab4 -- Nathan Dwek
+%Image Processing lab4 -- Nathan Dwek
 clear all; close all;
 
 METHODS = {'canny', 'prewitt', 'sobel', 'roberts', 'log', 'zerocross'};
