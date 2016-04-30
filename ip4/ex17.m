@@ -2,7 +2,7 @@
 close all; clear all;
 
 SIGMA = .05;
-AVGSIZE = 3;
+AVGSIZE = 5;
 
 gertrude = im2double(imread('gertrude.tif', 'TIFF'));
 
@@ -27,6 +27,12 @@ subplot(122);
 imshow(avgradientAbs);title('Edge avg');
 %Averaging doesn't sound like a good idea. Artifacts don't seem to
 %disappear, but the edges are getting spread very rapidly.
+%As we saw in the previous lab, edge detection needs the high frequency
+%content of the image to be preserved, so averaging filters are not a good
+%idea to denoise. Maybe anisodiff would be better?
+
+%With all that being said, the edge detection after averaging is able to
+%detect to edges that are not detected without averaging.
 
 figure;subplot(221);
 imshow(im2bw(gradientAbs, 0.3));title('Edge no avg, tresh = 0.3');

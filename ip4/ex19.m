@@ -6,7 +6,7 @@ METHODS = {'canny', 'prewitt', 'sobel', 'roberts', 'log', 'zerocross'};
 gertrude = im2double(imread('gertrude.tif', 'TIFF'));
 
 figure;
-imshow(edge(gertrude,'canny'));
+imshow(edge(gertrude,'canny'));title('Optimal edge detection using the Canny detector')
 
 figure('name', 'Comparison of edge detection methods provided by matlab with default parameters');
 for i = 1:length(METHODS);

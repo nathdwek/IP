@@ -1,8 +1,7 @@
 %Image Processing Lab4 -- Nathan Dwek
 BLKSIZE = 8;
 
-T = dctmtx(BLKSIZE);
-dct = @(block_struct) T * block_struct.data * T';
+dct = @(block_struct) dct2(block_struct.data);
 idct = @(block_struct) idct2(block_struct.data);
 
 lena = im2double(imread('lenagray.tif', 'TIFF'));

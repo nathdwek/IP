@@ -9,6 +9,7 @@ lena = im2double(imread('lenagray.tif', 'TIFF'));
 
 A = appcoef2(C, S, WAVELET);
 myshow(A,64);
+title('Level 3 approximation')
 
 HH = {};
 HL={};

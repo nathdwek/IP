@@ -20,16 +20,18 @@ subplot(222);
 imshow(hzed);title('Horizontal derivative');
 subplot(223);
 imshow(vted);title('Vertical derivative');
+%You can clearly see which one is vertical and which one is horizontal.
 subplot(224);
 imshow(gradientAbs);title('Gradient amplitude');
 
 %The edge on Gertrude's right cheek is less clearly defined then the one on
 %her left cheek. This is probably due to the shadows of her hair on her
-%right side. Improfile indeed shows that the slope along the "normal" to
-%her cheek it low and long on her right side, and sharp and short on her
+%right side, which make the transition to the dark hair to the pale skin
+%less pronounced. Improfile indeed shows that the slope along the "normal"
+%to her cheek it low and long on her right side, and sharp and short on her
 %left side.
 
-%Also, her left cheek is simply lighter then her right cheek so the change
+%Also, her left cheek simply appears lighter then her right cheek so the change
 %can be more significant.
 
 figure;
